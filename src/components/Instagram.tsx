@@ -6,6 +6,9 @@ import Guides from './Guides.tsx';
 
 export default function Instagram() {
     const [show, setShow]=React.useState('Posts');
+    // React.useEffect(()=>{
+    //     console.log(show)
+    // }, [show])
   return (
     <>
         <div className='flex justify-center'>
@@ -41,9 +44,18 @@ export default function Instagram() {
             <div className='lg:w-7/12 border border-blue-800'></div>
         </div>
         <div className='flex justify-center'>
-            <button className='uppercase text-2xl font-semibold py-2'>Posts</button>
-            <button className='uppercase text-2xl font-semibold py-2 mx-10'>Reels</button>
-            <button className='uppercase text-2xl font-semibold py-2'>Guides</button>
+            <button onClick={e=>{
+                e.preventDefault();
+                setShow(show=>"Posts");
+            }} className='uppercase text-2xl font-semibold py-2'>Posts</button>
+            <button onClick={e=>{
+                e.preventDefault();
+                setShow(show=>"Reels");
+            }} className='uppercase text-2xl font-semibold py-2 mx-10'>Reels</button>
+            <button onClick={e=>{
+                e.preventDefault();
+                setShow(show=>"Guides");
+            }} className='uppercase text-2xl font-semibold py-2'>Guides</button>
         </div>
         {show==='Posts'?<Posts/>:show==="Reels"?<Reels/>:<Guides/>}
     </>
