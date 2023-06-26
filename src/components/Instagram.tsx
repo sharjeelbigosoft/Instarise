@@ -12,36 +12,37 @@ export default function Instagram() {
   return (
     <>
         <div className='flex justify-center'>
-            <h3 className='font-medium text-3xl lg:w-1/3 text-center'>Switch to <span>Instarise</span>. See the impact.</h3>
+            <h3 className='font-medium text-3xl max-md:text-xl lg:w-1/3 text-center'>Switch to <span>Instarise</span>. See the impact.</h3>
         </div>
-        <div className='flex justify-center w-full my-16'>
-            <div className='flex w-5/12'>
+        <div className='flex justify-center w-full lg:my-16 max-lg:my-6'>
+            <div className='flex xl:w-5/12 max-md:space-x-4 max-md:px-1'>
                 <div className='flex w-full'>
-                    <img className='mr-20 rounded-full lg:h-48 self-center' src={logo} alt="Logo" />
+                    <img className=' rounded-full xl:h-[70%] self-center' src={logo} alt="Logo" />
                 </div>
                 <div className=''>
                     <div className='flex'>
-                        <h6 className='font-medium text-lg mr-6'>instarise.io</h6>
-                        <button className='font-medium bg-gray-200 rounded-lg px-4 py-1 mx-1'>Following</button>
-                        <button className='font-medium bg-gray-200 rounded-lg px-4 py-1 mx-1'>Message</button>
+                        <h6 className='font-medium text-lg max-md:text-base mr-6'>instarise.io</h6>
+                        <button className='max-md:text-sm font-medium bg-gray-200 rounded-lg px-4 py-1 mx-1'>Following</button>
+                        <button className='max-md:text-sm font-medium bg-gray-200 rounded-lg px-4 py-1 mx-1'>Message</button>
                     </div>
-                    <div className='flex lg:my-4'>
-                        <h6 className='font-medium '><span className='font-medium text-lg'>60</span> posts</h6>
-                        <h6 className='font-medium lg:mx-6'><span className='font-medium text-lg'>3535</span> followers</h6>
-                        <h6 className='font-medium '><span className='font-medium text-lg'>6</span> following</h6>
+                    <div className='flex lg:my-4 justify-between w-[95%]'>
+                        <h6 className='max-md:text-sm font-medium '><span className='max-md:font-semibold max-md:text-base md:font-medium md:text-lg'>60</span> posts</h6>
+                        <h6 className='max-md:text-sm font-medium lg:mx-6'><span className='max-md:font-semibold max-md:text-base md:font-medium md:text-lg'>3535</span> followers</h6>
+                        <h6 className='max-md:text-sm font-medium '><span className='max-md:font-semibold max-md:text-base md:font-medium md:text-lg'>6</span> following</h6>
                     </div>
-                    <h5 className='uppercase font-semibold'>new account</h5>
-                    <p className='text-sm'>We help creative entrepreneurs figure out #socialmedia effectively.</p>
-                    <p className='text-sm'>Branding</p>
-                    <p className='text-sm'>Ads that convert</p>
-                    <p className='text-sm'>Tell your story</p>
-                    <p className='text-sm'>Influenser | Marketing | Campaigns</p>
-                    <p className='text-sm font-semibold text-blue-800'>www.instarise.com</p>
+                    <h5 className='uppercase font-semibold max-md:text-sm'>new account</h5>
+                    <p className='md:text-sm max-md:text-xs'>We help creative entrepreneurs figure out #socialmedia effectively.</p>
+                    <p className='md:text-sm max-md:text-xs'>Branding</p>
+                    <p className='md:text-sm max-md:text-xs'>Ads that convert</p>
+                    <p className='md:text-sm max-md:text-xs'>Tell your story</p>
+                    <p className='md:text-sm max-md:text-xs'>Influenser | Marketing | Campaigns</p>
+                    <a className='md:text-sm max-md:text-xs font-semibold text-blue-800' onClick={e=>e.preventDefault()} href="/">www.instarise.com</a>
+                    {/* <p className='md:text-sm max-md:text-xs font-semibold text-blue-800'>www.instarise.com</p> */}
                 </div>
             </div>
         </div>
         <div className='flex justify-center'>
-            <div className='lg:w-7/12 border border-blue-800'></div>
+            <div className='lg:w-7/12 max-lg:w-[95%] lg:border max-lg:border-b border-blue-800'></div>
         </div>
         <div className='flex justify-center'>
             <button onClick={e=>{
