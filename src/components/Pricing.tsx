@@ -109,6 +109,6 @@ export default function Pricing() {
           </ul>
         </div>
       </div>
-    </>
+    </> 
   )
 }
