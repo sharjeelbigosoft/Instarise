@@ -5,7 +5,7 @@ export default function Posts() {
   return (
     <>
     <div className='flex justify-center mb-16'>
-        <div className='rounded-xl lg:w-1/5 border-slate-200 border-2'>
+        <div className='rounded-xl lg:w-1/5 border-slate-200 border-2 max-md:w-[80%]'>
             <img className='border rounded-xl' src={post} alt="" />
             <div className='flex justify-around'>
                 <div className=''>
@@ -28,7 +28,7 @@ export default function Posts() {
                 <button className='border rounded-lg border-slate-500 py-2 px-6 font-medium'>This could be you</button>
             </div>
         </div>
-        <div className='rounded-xl lg:w-1/5 mx-10 border-slate-200 border-2'>
+        <div className='rounded-xl lg:w-1/5 mx-10 border-slate-200 border-2 max-md:hidden'>
             <img className='border rounded-xl' src={post} alt="" />
             <div className='flex justify-around'>
                 <div className=''>
@@ -51,7 +51,7 @@ export default function Posts() {
                 <button className='border rounded-lg border-slate-500 py-2 px-6 font-medium'>This could be you</button>
             </div>
         </div>
-        <div className='rounded-xl lg:w-1/5 border-slate-200 border-2'>
+        <div className='rounded-xl lg:w-1/5 border-slate-200 border-2 max-md:hidden'>
             <img className='border rounded-xl' src={post} alt="" />
             <div className='flex justify-around'>
                 <div className=''>
