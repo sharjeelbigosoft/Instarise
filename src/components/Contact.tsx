@@ -10,7 +10,7 @@ export default function Contact() {
               <h3 className='text-3xl font-medium'>Let's level up your social reach, together<span className='text-pink-500'>!</span></h3>
               <p className='font-light text-gray-500'>You can reach us anytime via <a className='text-blue-700' href="/">Instarise</a></p>
               <form className='flex flex-wrap justify-between text-sm space-y-5' action="#">
-                <div className='grid lg:w-[45%]'>
+                <div className='grid lg:w-[45%] mt-5'>
                   <label className='' htmlFor="name">Name</label>
                   <input className=' p-2 border border-slate-400 rounded' id='name' placeholder='Your name' type="text" />
                 </div>
