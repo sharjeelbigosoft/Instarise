@@ -9,9 +9,9 @@ export default function Reliability() {
                 <h6 className='lg:w-7/12 text-zinc-400'>We replace unreliable freelancers and expensive agencies you can't afford. For a flat fee, we take the pain out of hiring ineffective creatives from platforms like Fiverr.</h6>
                 <h6 className=' text-zinc-400'>Lucky you, we fix that.</h6>
                 <div className='flex justify-between'>
-                    <button className='rounded-3xl text-sm text-white py-1 px-4 max-md:px-1 max-lg:rounded-xl max-lg:text-xs bg-gray-600 text-black'>Graphic & Web Design</button>
-                    <button className='rounded-3xl text-sm text-white py-1 px-4 max-md:px-1 max-lg:rounded-xl max-lg:text-xs bg-gray-600 text-black'>Social Media & Advertising</button>
-                    <button className='rounded-3xl text-sm text-white py-1 px-4 max-md:px-1 max-lg:rounded-xl max-lg:text-xs bg-gray-600 text-black'>UGC | Video Editing</button>
+                    <button className='rounded-3xl text-sm text-white py-1 px-4 max-md:px-1 max-lg:rounded-xl max-lg:text-xs bg-gray-600'>Graphic & Web Design</button>
+                    <button className='rounded-3xl text-sm text-white py-1 px-4 max-md:px-1 max-lg:rounded-xl max-lg:text-xs bg-gray-600'>Social Media & Advertising</button>
+                    <button className='rounded-3xl text-sm text-white py-1 px-4 max-md:px-1 max-lg:rounded-xl max-lg:text-xs bg-gray-600'>UGC | Video Editing</button>
                 </div>
             </div>
         </div>
