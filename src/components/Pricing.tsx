@@ -1,4 +1,9 @@
 import React from 'react'
+import insta from './Resources/Instagram -logo.png'
+import facebook from './Resources/Facebook-logo.png'
+import twitter from './Resources/twitter-logo.png'
+import linkedin from './Resources/Linkedin-logo.png'
+import tiktok from './Resources/Tiktok-logo.png'
 
 export default function Pricing() {
   return (
@@ -59,22 +64,27 @@ export default function Pricing() {
       </div>
 
 
-      <div className='display flex justify-center my-6'>
-        <div className='w-3/5'>
+      <div className='display flex flex-wrap justify-center my-6'>
+        <div className='w-3/5 max-md:w-11/12'>
           <h3 className='font-medium text-lg'>Customize your plan with perks that make a difference</h3>
-          <div className='w-full flex justify-between p-10 border border-black '>
-            <div>
+          <div className='w-full flex flex-wrap justify-between p-4 border border-black '>
+            <div className='max-md:py-3 md:w-4/12 space-y-3'>
               <p className='font-medium'>Time to Scale!</p>
               <p className='font-medium'>From <span className='text-5xl'>$3,799</span> /month</p>
+              <button className='border border-teal-400 rounded-sm w-full py-2'>Book a Call</button>
             </div>
-            <div className='w-7/12'>
+            <div className='w-8/12 max-md:w-11/12 max-md:py-3'>
               <p className=''>For fast-moving businesses in need of a design & marketing team to scale-up even faster.</p>
-              <div className='flex justify-center'>
+              <div className='flex flex-wrap justify-center space-x-8 py-3'>
                 {/* Logos */}
-                <div>
-
+                <div className='flex flex-wrap justify-center content-center w-[30%] max-md:py-3 max-md:w-[50%] max-lg:w-[50%]'>
+                  <img className='w-[] h-6 m-1 max-md:h-8' src={insta} alt="" />
+                  <img className='w-[] h-6 m-1 max-md:h-8' src={linkedin} alt="" />
+                  <img className='w-[] h-6 m-1 max-md:h-8' src={facebook} alt="" />
+                  <img className='w-[] h-6 m-1 max-md:h-8' src={twitter} alt="" />
+                  <img className='w-[] h-6 m-1 max-md:h-8' src={tiktok} alt="" />
                 </div>
-                <ul className='list-disc '>
+                <ul className='list-disc max-md:pt-3 max-lg:w-full max-md:self-start'>
                   <li>Social Media</li>
                   <li>Website</li>
                   <li>SEO</li>
