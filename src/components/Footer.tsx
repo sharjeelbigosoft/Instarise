@@ -19,7 +19,7 @@ export default function Footer() {
                 <p className='font-medium'>Dr./Li./In.</p>
             </div>
 
-            <div className='md:border-t md:border-teal-400 py-10 md:border-b space-y-4 text-sm max-md:w-[80%] md:w-[20%] px-6'>
+            <div className='md:border-t md:border-teal-400 max-md:py-0 py-10 md:border-b space-y-4 text-sm max-md:w-[80%] md:w-[20%] px-6'>
                 <p className='font-bold'>Work inquiries</p>
                 <p className='font-thin'>Interested in working with us?</p>
                 <div>
@@ -37,7 +37,7 @@ export default function Footer() {
                 <p>This is totally free. We will only send you coupen codes and offers.</p>
             </div>
 
-            <div className='py-10 md:border-t md:border-teal-400 max-md:border-teal-400 max-md:border-b grid justify-items-center max-md:w-[80%] max-md:space-x-4 max-md:justify-center max-md:flex max-lg:w-[10%] lg:w-[15%] px-6'>
+            <div className='py-10 md:border-t md:border-teal-400 max-md:border-teal-400 max-md:border-b grid justify-items-center max-md:w-[80%] max-md:space-x-4 max-md:justify-center max-md:flex max-lg:w-[10%] lg:w-[15%] max-md:pt-2 px-6'>
                 <img className='max-md:w-[15%] md:h-5' src={insta} alt="" />
                 <img className='max-md:w-[15%] md:h-5' src={linkedin} alt="" />
                 <img className='max-md:w-[15%] md:h-5' src={facebook} alt="" />
