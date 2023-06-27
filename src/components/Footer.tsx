@@ -30,8 +30,8 @@ export default function Footer() {
 
             <div className='md:border-t md:border-teal-400 py-10 md:border-b space-y-4 text-sm max-md:w-[80%] max-lg:w-[40%] lg:w-[20%] px-6'>
                 <p className='font-bold'>Do you want special offers?</p>
-                <div className='flex border p-2 rounded w-min max-md:w-full'>
-                    <input className='max-md:w-[80%]' placeholder='Your email address' type="email" />
+                <div className='flex border rounded w-min max-md:w-full'>
+                    <input className='max-md:w-[80%] p-2' placeholder='Your email address' type="email" />
                     <button className='font-medium'>Subscribe</button>
                 </div>
                 <p>This is totally free. We will only send you coupen codes and offers.</p>
