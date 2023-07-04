@@ -15,7 +15,6 @@ function App() {
     <>
       <Header/>
       <Slogan/>
-      <Services/>
       <Performance/>
       <Action/>
       <Instagram/>
