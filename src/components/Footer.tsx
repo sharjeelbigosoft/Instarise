@@ -51,7 +51,7 @@ export default function Footer() {
                         {/* group 4174 */}
                         <div className='grid gap-[15px]'>
                             <h6 className='font-[poppins] font-[700] text-[0.94rem]'>Do you want special offers?</h6>
-                            <div className='flex justify-between border rounded-[0.5rem] px-[1rem] py-[0.75rem]'>
+                            <div className='flex w-[20.63rem] justify-between border rounded-[0.5rem] px-[1rem] py-[0.75rem]'>
                                 <input className='' placeholder='Your email address' type="email" />
                                 <button className='' type="submit">Subscribe</button>
                             </div>
