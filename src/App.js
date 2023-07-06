@@ -9,6 +9,7 @@ import Reliability from './components/Reliability.tsx';
 import Pricing from './components/Pricing.tsx';
 import Contact from './components/Contact.tsx';
 import Footer from './components/Footer.tsx';
+import Statement from './components/Statement.tsx';
 
 function App() {
   return (
@@ -16,11 +17,12 @@ function App() {
       <Header/>
       <Slogan/>
       <Performance/>
+      <Statement/>
       <Action/>
-      <Instagram/>
+      {/* <Instagram/>
       <Reliability/>
       <Pricing/>
-      <Contact/>
+      <Contact/> */}
       <Footer/>
     </>
   );

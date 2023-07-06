@@ -3,9 +3,7 @@ import React from 'react'
 export default function Action() {
   return (
     <>
-    {/* box-shadow: 0px -6px 7px 0px rgba(0, 0, 0, 0.15); */}
-
-    <div className='w-full relative h-[35.44rem] grid mt-[21px] shadow-[0px_-6px_7px_0px_rgba(0, 0, 0, 0.15)] border-2'>
+    <div className='w-full relative h-[35.44rem] grid mt-[21px] shadow-[0px_-6px_7px_0px_rgba(0, 0, 0, 0.15)]'>
         <div className='z-40 mt-[34px] w-[23.75rem] grid justify-self-center border rounded-[10px] border-[#D9D9D9]'>
           <div className='w-[23.25rem] grid justify-self-center'>
             <div className='w-[21rem] justify-self-center grid mb-[0.75rem]'>

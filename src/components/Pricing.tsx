@@ -8,7 +8,7 @@ import tiktok from './Resources/Tiktok-logo.png'
 export default function Pricing() {
   return (
     <>
-      <div className='grid justify-items-center my-24'>
+      <div className='grid justify-items-center my-24 max-md:hidden'>
         <h3 className='text-2xl font-semibold'>Pricing</h3>
         <h3 className='text-2xl font-semibold'>Made <span className='text-pink-500'>Super</span> Simple</h3>
         <div className='flex w-full my-10'>
@@ -97,20 +97,20 @@ export default function Pricing() {
         </div>
       </div>
 
-      <div className='flex justify-center my-10'>
-        <div className='w-3/5 flex justify-around'>
-          <div className='w-1/3 px-6 space-y-2'>
+      <div className='flex justify-center my-10 md:px-10'>
+        <div className='w-3/5 max-lg:w-full max-lg:space-y-6 flex flex-wrap justify-around'>
+          <div className='w-1/3 max-lg:w-full px-6 space-y-2'>
             <h4 className='font-medium'>Coordinate each step</h4>
             <p className='text-sm text-slate-500'>The annual cost of a full-time, top quality designer now exceeds $84,000. Subscribe for less than a fraction of this!</p>
           </div>
-          <ul className='w-1/3 px-6 space-y-2 text-sm font-medium list-image-{url(https://vhv.rs/dpng/d/409-4094705_blue-tick-png-transparent-png-blue-tick-white.png)}'>
+          <ul className='w-1/3 max-lg:w-1/2 px-6 space-y-2 text-sm font-medium'>
             <li>UGC videos</li>
             <li>Brand Identity</li>
             <li>Attractive UI/UX</li>
             <li>Packaging Design</li>
             <li>Organic & Paid Growth</li>
           </ul>
-          <ul className='w-1/3 px-6 space-y-2 text-sm font-medium list-image-{url(htvhttps://.rs/dpng/d/409-4094705_blue-tick-png-transparent-png-blue-tick-white.png)}'>
+          <ul className='w-1/3 max-lg:w-1/2 px-6 space-y-2 text-sm font-medium'> {/* list-image-{url(https://.rs/dpng/d/409-4094705_blue-tick-png-transparent-png-blue-tick-white.png)} */}
             <li>$1.80 Community Engagement</li>
             <li>Video Editing</li>
             <li>Content Creation</li>

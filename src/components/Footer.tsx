@@ -8,7 +8,36 @@ import tiktok from './Resources/Tiktok-logo.png'
 export default function Footer() {
   return (
     <>
-        <div className='flex flex-wrap justify-center mt-20 max-md:border-teal-400 max-md:border-t'>
+        <div className='flex justify-center '>
+            {/* frame 90 */}
+            <div>
+                {/* frame 85 */}
+
+                {/* group 4175 */}
+
+                {/* group 4174 */}
+
+            </div>
+
+            {/* social */}
+            <div></div>
+
+            {/* line */}
+            <svg width="263" height="2" viewBox="0 0 263 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="0.228516" y1="1.14941" x2="262.929" y2="1.14941" stroke="url(#paint0_linear_401_840)"/>
+                <defs>
+                <linearGradient id="paint0_linear_401_840" x1="0.228516" y1="1.64941" x2="0.436354" y2="9.55252" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#6DDCFF"/>
+                <stop offset="1" stop-color="#FF44EC"/>
+                </linearGradient>
+                </defs>
+            </svg>
+
+            {/* copyright */}
+
+
+        </div>
+        {/* <div className='flex flex-wrap justify-center mt-20 max-md:border-teal-400 max-md:border-t'>
             <div className='py-10 max-lg:hidden w-[15%]'></div>
             <div className='md:border-t md:border-teal-400 py-10 md:border-b space-y-4 max-md:w-[80%] md:w-[20%] px-6 text-sm'>
                 <div className='flex space-x-2'>
@@ -46,7 +75,7 @@ export default function Footer() {
             </div>
         </div>
 
-        <p className='text-center text-xs text-slate-500 mb-6 mt-4'>Instarise 2023. All rights reserved by Instarise.</p>
+        <p className='text-center text-xs text-slate-500 mb-6 mt-4'>Instarise 2023. All rights reserved by Instarise.</p> */}
         {/* <div className='flex just'></div> */}
     </>
   )
