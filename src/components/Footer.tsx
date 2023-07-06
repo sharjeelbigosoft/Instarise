@@ -1,14 +1,24 @@
 import React from 'react'
-import insta from './Resources/Instagram -logo.png'
-import facebook from './Resources/Facebook-logo.png'
-import twitter from './Resources/twitter-logo.png'
-import linkedin from './Resources/Linkedin-logo.png'
-import tiktok from './Resources/Tiktok-logo.png'
+// import insta from './Resources/Instagram -logo.png'
+// import facebook from './Resources/Facebook-logo.png'
+// import twitter from './Resources/twitter-logo.png'
+// import linkedin from './Resources/Linkedin-logo.png'
+// import tiktok from './Resources/Tiktok-logo.png'
 
 export default function Footer() {
   return (
     <>
         <div className='flex justify-center '>
+        <svg width="389" height="2" viewBox="0 0 389 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <line x1="0.157227" y1="1.42676" x2="389" y2="1.42676" stroke="url(#paint0_linear_401_841)"/>
+            <defs>
+            <linearGradient id="paint0_linear_401_841" x1="0.157227" y1="1.92676" x2="0.297694" y2="9.83284" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#6DDCFF"/>
+            <stop offset="1" stop-color="#FF44EC"/>
+            </linearGradient>
+            </defs>
+        </svg>
+
             {/* frame 90 */}
             <div>
                 {/* frame 85 */}
