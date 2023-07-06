@@ -1,5 +1,5 @@
 import './App.css';
-import Services from './components/Services.tsx';
+// import Services from './components/Services.tsx';
 import Header from './components/Header.tsx';
 import Slogan from './components/Slogan.tsx';
 import Performance from './components/Performance.tsx';
