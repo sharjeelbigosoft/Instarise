@@ -3,7 +3,7 @@ import React from 'react'
 export default function Action() {
   return (
     <>
-    <div className='w-full relative h-[35.44rem] grid mt-[21px] shadow-[0px_-6px_7px_0px_rgba(0, 0, 0, 0.15)]'>
+    <div className='w-full relative h-[35.5rem] grid mt-[21px] shadow-[0px_-6px_7px_0px_rgba(0, 0, 0, 0.15)]'>
         <div className='z-40 mt-[34px] w-[23.75rem] grid justify-self-center border rounded-[10px] border-[#D9D9D9]'>
           <div className='w-[23.25rem] grid justify-self-center'>
             <div className='w-[21rem] justify-self-center grid mb-[0.75rem]'>
@@ -29,7 +29,7 @@ export default function Action() {
           </div>
         </div>
 
-        <div className='z-10 absolute justify-self-center top-[11.19rem] w-[24rem] h-[21.25rem]'>
+        <div className='z-10 absolute justify-self-center top-[16rem] w-[24rem] h-[21.25rem]'>
             <div className='relative w-full'>
               <svg className='absolute' width="380" height="384" viewBox="0 0 380 384" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g opacity="0.3" filter="url(#filter0_f_401_683)">
@@ -48,7 +48,7 @@ export default function Action() {
                   </defs>
               </svg>
 
-              <svg className='absolute top-[16rem] right-0' width="253" height="84" viewBox="0 0 253 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg className='absolute top-[14rem] right-[5px]' width="253" height="84" viewBox="0 0 253 84" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0.999756 72.1826C16.7523 70.6708 32.4349 67.9041 43.8524 46.925C51.234 33.3618 49.7517 14.1213 40.3318 4.84463C31.7449 -3.61166 22.3337 2.49046 17.9428 17.1938C10.9375 40.6514 19.4398 59.9225 32.9605 67.0565C49.7293 75.9045 69.4603 71.9662 85.3848 60.1596C90.2114 56.5811 95.3887 51.133 99.3573 45.1542C101.529 41.8821 106.462 33.8305 106.344 27.8188C106.198 20.4129 96.8245 19.4811 95.3526 31.2841C93.439 43.8636 125.753 53.4843 128.32 53.9151C142.064 56.2223 158.074 55.1706 169.825 41.1932C173.698 36.5858 176.785 31.4659 177.306 23.1587C177.965 12.6661 172.189 6.9258 166.799 6.10285C155.377 4.35861 142.641 17.9073 143.75 39.0961C145.259 67.9208 164.972 82.5777 180.002 82.994C192.183 83.3314 205.905 69.5001 211.412 50.8395C211.599 50.208 213.002 45.3865 210.945 45.76C208.075 46.281 205.42 53.2662 204.921 57.4568C203.149 72.3524 214.305 77.001 220.654 76.0971C231.767 74.5148 242.573 66.6903 253 60.4392" stroke="#FF44EC" stroke-width="0.932243" stroke-linecap="round" stroke-dasharray="5.28 5.28"/>
               </svg>
             </div>
