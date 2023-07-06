@@ -52,7 +52,7 @@ export default function Footer() {
                         <div className='grid gap-[15px]'>
                             <h6 className='font-[poppins] font-[700] text-[0.94rem]'>Do you want special offers?</h6>
                             <div className='flex w-[20.5rem] justify-between border rounded-[0.5rem] px-[1rem] py-[0.75rem]'>
-                                <input className='' placeholder='Your email address' type="email" />
+                                <input className='w-[9.5rem]' placeholder='Your email address' type="email" />
                                 <button className='' type="submit">Subscribe</button>
                             </div>
                             <p className='font-[poppins] font-[300] text-[0.88rem]'>This is totally free. We'll only send you coupon codes and special offers</p>
