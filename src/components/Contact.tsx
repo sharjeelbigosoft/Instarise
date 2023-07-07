@@ -3,12 +3,12 @@ import React from 'react'
 export default function Contact() {
   return (
     <>
-      <div className='flex items-center flex-col md:flex-row justify-center'>
+      <div className='flex items-center flex-col md:flex-row justify-center gap-[1.25rem]'>
         <div className="gap-[24px]">
           <div className='grid gap-[50px]'>
             {/* form headline */}
             <div className='w-[22.88rem]'>
-              <h6 className='text-[2.19rem] font-[lato] font-[500] leadig-[3.75rem]'>Let’s level up your social reach, together<h6 className='text-[#FF44EC] font-[inter] inline'>!</h6></h6>
+              <h6 className='text-[2.19rem] font-[lato] font-[500] leadig-[3.75rem]'>Let's level up your social reach, together<h6 className='text-[#FF44EC] font-[inter] inline'>!</h6></h6>
               <p className='font-[poppins] font-[500] text-[1rem] leading-[1.88rem] text-[#606060]'>You can reach us anytime via <p className='font-[inter] font-[400] text-[1rem] leading-[1.88rem] inline text-[#005FEE]'>Instarise</p></p>
             </div>
             {/* form */}
@@ -53,8 +53,29 @@ export default function Contact() {
 
 
         {/* contact info */}
-        <div className="w-[23.25rem] h-[40rem] bg-slate-400">
-          
+        <div className="w-[23.25rem]">
+          {/* frame 33 */}
+          <div className='flex flex-col gap-[1.25rem]'>
+            <h6 className='font-[500] font-[lato] text-[1.63rem] leading-[2.5rem]'>Directly schedule a Meeting</h6>
+            <div className='font-[poppins] font-[300] text-[1.13rem] text-[#555555]'>
+              <p className='leading-[1.69rem]'>Want to skip the boring form?<p className='font-[400] text-black'>We don't blame you!</p></p>
+              <br />
+              <p className='leading-[1.69rem]'>Schedule a single very quick 15-minute meeting with us to talk about your project and get a 100% free prototype strategy without any risk!</p>
+              <br />
+              <p className='leading-[1.69rem]'>We'll only ask you a few questions to get started. It's quick, easy, and a fun way to jumpstart your project!</p>
+            </div>
+          </div>
+          {/* actions */}
+          <div className='w-[full] my-[1.88rem]'>
+            <button className='w-full py-[0.75rem] px-[1.25rem] bg-[#005FEE] text-white rounded-[0.5rem] font-[poppins] font-[700] leading-[1.5rem] text-[1.62rem]'>Schedule a Meeting</button>
+          </div>
+          {/* text */}
+          <div className='font-[poppins] font-[300] text-[1.13rem] text-[#555555]'>
+            <p className='leading-[1.88rem]'>You can't wait any longer for a good design agency and want to get in touch with us ASAP? <p className='inline text-[#FF44EC]'>Awesome!</p></p>
+            <p className='leading-[1.88rem]'>Just give us a call</p>
+            <br />
+            <p className='leading-[1.88rem] font-[300] text-black'>+1 (567) 386 3155!</p>
+          </div>
         </div>
       </div>
         {/* <div className='flex justify-center'>
