@@ -10,6 +10,7 @@ import Pricing from './components/Pricing.tsx';
 import Contact from './components/Contact.tsx';
 import Footer from './components/Footer.tsx';
 import Statement from './components/Statement.tsx';
+import Advertising from './components/Advertising.tsx';
 
 function App() {
   return (
@@ -19,9 +20,10 @@ function App() {
       <Performance/>
       <Statement/>
       <Action/>
-      {/* <Instagram/>
+      {/* <Instagram/> */}
       <Reliability/>
-      <Pricing/> */}
+      {/* <Pricing/> */}
+      {/* <Advertising/> */}
       <Contact/>
       <Footer/>
     </>
