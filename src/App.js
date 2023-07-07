@@ -21,8 +21,8 @@ function App() {
       <Action/>
       {/* <Instagram/>
       <Reliability/>
-      <Pricing/>
-      <Contact/> */}
+      <Pricing/> */}
+      <Contact/>
       <Footer/>
     </>
   );
