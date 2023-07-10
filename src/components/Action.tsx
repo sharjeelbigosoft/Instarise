@@ -3,8 +3,8 @@ import React from 'react'
 export default function Action() {
   return (
     <>
-    <div className='w-full relative h-[35.5rem] grid mt-[21px] shadow-[0px_-6px_7px_0px_rgba(0, 0, 0, 0.15)]'>
-        <div className='z-40 mt-[34px] w-[23.75rem] grid justify-self-center border rounded-[10px] border-[#D9D9D9]'>
+    <div className='w-full relative h-[35.5rem] grid mt-[21px] shadow-2xl'>
+        <div className='z-40 pt-[2rem] w-[23.75rem] grid justify-self-center border rounded-[10px] border-[#D9D9D9]'>
           <div className='w-[23.25rem] grid justify-self-center'>
             <div className='w-[21rem] justify-self-center grid mb-[0.75rem]'>
               <h3 className='justify-self-center font-[lato] font-[600] text-center text-[1.8rem] leading-[2.44rem] tracking-[1px]'>You're here ★ Don't waste time. Take Action.<br/><br/>START NOW</h3>
