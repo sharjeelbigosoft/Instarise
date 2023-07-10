@@ -7,11 +7,7 @@ export default function Action() {
         <div className='z-40 mt-[34px] w-[23.75rem] grid justify-self-center border rounded-[10px] border-[#D9D9D9]'>
           <div className='w-[23.25rem] grid justify-self-center'>
             <div className='w-[21rem] justify-self-center grid mb-[0.75rem]'>
-              <h3 className='justify-self-center font-[lato] font-[600] text-center text-[1.8rem] leading-[2.44rem] tracking-[1px]'>You're here  
-                <svg className='inline' width="33" height="30" viewBox="0 0 33 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M16.5 0L20.2045 11.4012H32.1924L22.494 18.4476L26.1985 29.8488L16.5 22.8024L6.80154 29.8488L10.506 18.4476L0.807568 11.4012H12.7955L16.5 0Z" fill="black"/>
-                </svg>
-                 Don't waste time. Take Action.<br/><br/>START NOW</h3>
+              <h3 className='justify-self-center font-[lato] font-[600] text-center text-[1.8rem] leading-[2.44rem] tracking-[1px]'>You're here ★ Don't waste time. Take Action.<br/><br/>START NOW</h3>
               <p className='mt-[30px] font-[poppins] justify-self-center font-[300] w-[18.25rem] text-[#676767] text-center text-[1rem] leading-[1.5rem]'>Schedule a 15 minute call with an expert. We will guide you in the right direction!</p>
             </div>
           </div>
