@@ -10,11 +10,11 @@ import logo from './Resources/logo.png'
 export default function Footer() {
   return (
     <>
-        <div className='flex justify-center h-[40rem]'>
+        <div className='flex justify-center w-full'>
             {/* Main Centered */}
             <div className=' mt-[14px] py-[1rem]'>
                 <div className='w-[24.31]'>
-                    <svg width="389" height="2" viewBox="0 0 389 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg className='w-full' width="" height="2" viewBox="" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <line x1="0.157227" y1="1.42676" x2="389" y2="1.42676" stroke="url(#paint0_linear_401_841)"/>
                         <defs>
                         <linearGradient id="paint0_linear_401_841" x1="0.157227" y1="1.92676" x2="0.297694" y2="9.83284" gradientUnits="userSpaceOnUse">
@@ -27,7 +27,7 @@ export default function Footer() {
 
                 {/* frame 90 */}
                 <div className='flex justify-center mt-[2rem]'>
-                    <div className='grid gap-[40px] w-[20.6rem]'>
+                    <div className='flex flex-col md:flex-row md:justify-between gap-[40px] w-[20.6rem]'>
                         {/* frame 85 */}
                         <div className='grid w-[19.13rem] gap-[10px]'>
                             <div className='flex w-[7.8rem] justify-between'>
@@ -61,7 +61,7 @@ export default function Footer() {
                 </div>
 
                 {/* social */}
-                <div className='flex justify-center'>
+                <div className='flex justify-center md:flex-col'>
                     <div className='w-[13.25rem] flex justify-between mt-[27px] mb-[21px]'>
                         <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <ellipse cx="16" cy="16.1387" rx="16" ry="16.1387" fill="#FF44EC"/>
