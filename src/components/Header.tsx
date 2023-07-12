@@ -7,7 +7,7 @@ export default function Header() {
     // <!-- Fixed header -->
     <>
     <header className='z-50 flex fixed w-full justify-center top-[5px] sm:top-[10px] md:top-[20px] lg:top-[40px] rounded-[0.31rem]'>
-      <div className='flex justify-between w-[24.38rem] sm:w-[37.5rem] md:w-[44rem] lg:w-[60rem] h-[3.06rem] py-[0.38rem] px-[0.81rem] bg-white rounded-[0.31rem] shadow-xl'>
+      <div className='flex justify-between w-[24.38rem] sm:w-[37.5rem] md:w-[44rem] lg:w-[60rem] max-md:h-[3.06rem] py-[0.38rem] px-[0.81rem] md:py-[0.5rem] md:px-[1rem] lg:py-[0.8rem] lg:px-[1.5rem] bg-white rounded-[0.31rem] shadow-xl'>
         <div className='flex items-center justify-between w-[6.19rem]'>
           <img src={logo} alt="Instarise" />
           <p className='uppercase text-[0.63rem] font-[700] font-[poppins]'>instarise</p>

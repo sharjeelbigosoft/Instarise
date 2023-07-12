@@ -4,13 +4,13 @@ import Header from './components/Header.tsx';
 import Slogan from './components/Slogan.tsx';
 import Performance from './components/Performance.tsx';
 import Action from './components/Action.tsx';
-import Instagram from './components/Instagram.tsx';
+// import Instagram from './components/Instagram.tsx';
 import Reliability from './components/Reliability.tsx';
-import Pricing from './components/Pricing.tsx';
+// import Pricing from './components/Pricing.tsx';
 import Contact from './components/Contact.tsx';
 import Footer from './components/Footer.tsx';
 import Statement from './components/Statement.tsx';
-import Advertising from './components/Advertising.tsx';
+// import Advertising from './components/Advertising.tsx';
 
 function App() {
   return (

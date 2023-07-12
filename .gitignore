@@ -25,3 +25,5 @@ yarn-error.log*
 /index.html
 /cdn.tailwindcss.com_3.3.2
 .gitignore
+
+src/components/Test.tsx
